@@ -58,7 +58,7 @@ public class MessageSourceWrapper {
 		try {
 			return messageSource.getMessage(key, null, locale);
 		} catch (NoSuchMessageException e) {
-			logger.warn(MessageFormat.format("Can''t find ''{0}'' in message bundle", key), e);
+			logger.warn(MessageFormat.format("Can''t find ''{0}'' in message bundle", key));
 			return new StringBuilder(BAD_KEY_WRAPPER).append(key).append(BAD_KEY_WRAPPER).toString();
 		}
 		
