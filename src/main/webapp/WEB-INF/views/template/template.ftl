@@ -44,14 +44,14 @@ Hello foo and bar!<br/>
 	<li>
 		<a>Users</a>
 		<ul>
-			<li><a>New</a></li>
+			<li><a href="${request.contextPath}/user/new">New</a></li>
 			<li><a>List</a></li>
 		</ul>
 	</li>
 	<li>
 		<a>Projects</a>
 		<ul>
-			<li><a>New</a></li>
+			<li><a href="${request.contextPath}/project/new" >New</a></li>
 			<li><a>List</a></li>
 		</ul>
 	</li>

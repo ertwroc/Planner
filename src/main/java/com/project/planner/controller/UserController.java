@@ -11,8 +11,8 @@ import com.project.planner.model.NewUser;
 @RequestMapping("/user")
 public class UserController {
 	/**
-	 * Renderuje pusty formularz dodawania nowego uzytkownika
-	 * @return adres formularza dodawania nowego uzytkownika
+	 * Render empty form for adding new user
+	 * @return path to new user form
 	 */
 	@RequestMapping(value = "new", method = RequestMethod.GET)
 	public String create(){

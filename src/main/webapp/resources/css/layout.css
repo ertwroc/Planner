@@ -319,6 +319,7 @@ fieldset.login p {
 	margin-top:0pt;
 }
 fieldset p label {
+	color: black;
 	width:98%;
 }
 fieldset p input {
